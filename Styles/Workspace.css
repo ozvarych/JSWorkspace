@@ -1,0 +1,66 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 1em;   
+	font-family: "Open Sans", "sans-serif", "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana;
+	color: #696969;
+	min-height: 480px;
+	min-width: 700px;
+}
+
+/* PAGE SECTIONS */
+
+.sidePanel {
+	width: 26em;
+	height: 100%;
+	padding: 0em 2em 0em 2em;
+	background-color: #efefef;
+	float:left;
+}
+
+.sidePanelShade {
+	width: 1em;
+	height: 100%;
+	background-color: #dfdfdf;
+	float:left;
+}
+
+.artBoard {
+	width: 100%;
+	height: 100%;
+	/*background-color: #12ffff;*/
+
+}
+
+/*HELPER STYLES*/
+
+.floatRight { float: right; }
+.foatLeft { float: left; }
+.textAlignLeft { text-align: left; }
+.hidden { visibility: hidden; } 
+
+.blueColour { color: #2ABBAE; }
+
+
+.oneThird {
+  width: 33%;
+  float: right;
+}
+
+.twoThirds {
+  width: 66%;
+  float: right;
+}
+
+
+.quarter { width: 23%; }
+.third { width: 31%; }
+.half { width: 47%; }
+.threeQuarters { width: 70%; }
+.whole { width: 94%; }
+
+.textItalic {
+  font-style: italic;
+}
