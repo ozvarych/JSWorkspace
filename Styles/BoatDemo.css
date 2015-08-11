@@ -1,0 +1,7 @@
+#artBoard {
+    position: relative;
+}
+ 
+#artBoard canvas {
+    position: absolute;
+}

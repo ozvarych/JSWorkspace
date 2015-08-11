@@ -76,12 +76,17 @@ h6 {
 
 a {
 	color: #2ABBAE;	
+	text-decoration: none;
+  	border-bottom: 1px solid #ee6557; /*#16a6b6;*/
+  	cursor: pointer;
 }
 
 
 a:link, a:visited
 {
     color: #2ABBAE; /*#b9bba2;*/
+  	cursor: pointer;
+
     /*text-decoration: none;*/
 }
 
@@ -89,12 +94,17 @@ a:hover
 {
     color: #a5a2bb;
     text-decoration: none;
+    text-decoration: none;
+  	border-bottom: 1px solid #16a6b6;
+  	cursor: pointer;
+
 }
 
 a:active
 {
     color: #2ABBAE; /*#b0b397;*/
     background-color: #2ABBAE; 
+  	cursor: pointer;
 }
 
 /*HEADER TITLE*/
@@ -174,4 +184,8 @@ input {
 
 .blueHighlight {
 	background-color: #2ABBAE;
+}
+
+.blackHighlight {
+	background-color: #000000;
 }
